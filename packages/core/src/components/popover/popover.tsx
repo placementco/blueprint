@@ -135,6 +135,8 @@ export interface PopoverState {
 /**
  * Popover component, used to display a floating UI next to and tethered to a target element.
  *
+ * @deprecated This component will be removed in the next major version.
+ *
  * @template T target element props interface. Consumers wishing to stay in sync with Blueprint's default target HTML
  * props interface should use the `DefaultPopoverTargetHTMLProps` type (although this is already the default type for
  * this type param).
